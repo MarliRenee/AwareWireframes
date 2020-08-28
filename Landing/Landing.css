@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif; 
+    font-size: 20px;
+    color: #444;
+    text-align: center;
+    line-height: 1.5;
+    margin: 20px;
+}
+
+nav {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    padding: 1% 0;
+}
+
+.logo {
+    float: left;
+}
+
+.menu {
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+button {
+    border: 0;
+    width: 120px;
+    height: 40px;
+    left: 100px;
+    top: 220px; 
+    text-transform: uppercase;
+    background: #C4C4C4;
+}    
+
+header {
+    padding: 12% 0;
+}
+
+section {
+    min-height: 200px;
+    padding: 6% 0;
+}
+
+.rectangleInfo {
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.rectangle1 {
+    background: #C4C4C4;
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.rectangle2 {
+    background: #C4C4C4;
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.HowItWorks {
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.SatirInfo {
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.SatirImage {
+    background: #C4C4C4;
+    height: 250px;
+    width: 250px;
+    float: right;
+    margin-bottom: 40px;
+}
+
+.VirginiaSatir {
+    text-align: left;
+    height: 250px;
+    width: 250px;
+    margin-left: 20px;
+}
+
+h1 {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+h2 {
+    margin: 20px 0px;
+    font-size: 18px;
+}
+
+h3 {
+    margin: 20px 0px;
+    font-weight: 2;
+    font-size: 16px;
+}
+
+p {
+    margin: 20px 0px;
+    font-size: 12px;
+}
+  
