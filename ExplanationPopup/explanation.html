@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explanation</title>
+    <link rel="stylesheet" type="text/css" href="explanation.css">
+</head>
+
+<body>
+
+    <nav role="navigation">
+        <div class="logo">
+            <h2>AWARE</h2>
+        </div>
+        <div class="menu">
+            <ul>
+                <li>Sign In</li>
+                <li>Demo</li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main>
+        <header>
+            <h1>The Personal Iceberg</h1>
+           <h3>Emotions are just the surface...</h3>
+           <button>Deep dive</button>
+        </header>
+
+        <section class="QandA">
+            <div class="Question">
+                <h2>1. Behavior</h2>
+                <h3>What happened? Describe concrete, observable circumstances.</h3>
+                <div class="TellMeMore">
+                    <button id="myBtn" class="helpButton">
+                        ?
+                    </button>
+                    <p>Tell me more</p>
+                </div>
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <h3>[Level Title]</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam facilisis lobortis metus. Pellentesque in dui nec dui ornare porta. Nunc vel purus at eros iaculis accumsan eget sit amet ligula. Duis ornare auctor magna et tincidunt. Etiam tincidunt pulvinar odio eu dignissim. Sed fringilla porttitor tellus, lobortis posuere dolor dapibus blandit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="Answer">
+                <textarea placeholder="Example: I am having an argument (behavior) with my boss about a missed deadline."></textarea>
+                <div class="VocabHelp">
+                    <button class="helpButton">
+                        ?
+                    </button>
+                    <p>Vocab Inspiration</p>
+                </div>
+                <button class="QandA_Button">
+                    Submit
+                </button>
+            </div>
+        </section>
+    </main>
+    
+    <script src="explanation.js"></script>
+    
+</body>
+</html>
